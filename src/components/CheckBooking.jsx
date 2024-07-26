@@ -87,7 +87,7 @@ export default function CheckBooking() {
               {cabin.name}
             </p>
             <p>
-              <span>Total Price:</span> {booking.totalPrice}
+              <span>Total Price:</span>$ {booking.totalPrice}/-
             </p>
           </div>
         </div>

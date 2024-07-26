@@ -34,8 +34,9 @@
     gap: 1.2em;
   }
   .logo {
-    width: 71%;
+    width: 100vw;
     padding: 1em;
-    margin-left: 2em;
+    text-align:center;
+    margin-left: 0em !important;
   }
 }

@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  padding: 2em;
+  align-items: center;
+}
+.Nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  width: 40%;
+}
+.logo {
+  width: 43%;
+  padding: 0em;
+  margin-left: 6em;
+  font-size: 23px;
+  font-family: "Playfair Display", serif;
+}
+.Nav-links a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  transition: all;
+  transition-duration: 200ms;
+}
+.Nav-links a:hover {
+  font-weight: 600;
+  transform: scale(1.2);
+}
+@media (max-width: 500px) {
+  .Nav-links {
+    gap: 1.2em;
+  }
+  .logo {
+    width: 71%;
+    padding: 1em;
+    margin-left: 2em;
+  }
+}

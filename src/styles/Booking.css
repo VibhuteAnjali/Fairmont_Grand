@@ -1,0 +1,44 @@
+.bookingContainer {
+  margin: 5em;
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  justify-content: center;
+  margin-top: 10em;
+}
+.booking a {
+  text-decoration: none;
+  color: white;
+}
+.booking {
+  background: #795c5f;
+  width: 30vw;
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4em;
+  font-family: "Playfair Display", serif;
+}
+@media (max-width: 600px) {
+  .booking {
+    font-size: 0.9em;
+    width: 36vw;
+    height: 34vw;
+  }
+
+  .bookingContainer {
+    margin: 2em;
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    justify-content: center;
+    margin-top: 10em;
+  }
+}

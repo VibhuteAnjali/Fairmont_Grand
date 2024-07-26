@@ -1,0 +1,92 @@
+.item img {
+  width: 27em;
+}
+.rooms-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.room-item {
+  display: flex;
+  text-align: center;
+  padding: 3em 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 21px;
+}
+
+.room-item img {
+  max-width: 27vw;
+}
+.roomName {
+  font-family: "Playfair Display", serif;
+  font-size: 31px;
+  font-weight: 600;
+  display: flex;
+  gap: 2em;
+  align-items: baseline;
+}
+.room-flex {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+.infoRoom {
+  text-align: left;
+  padding: 2em 5em;
+}
+.discount {
+  width: 5em;
+  background: #795c5f;
+  text-align: center;
+  border-radius: 0.5em;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+.successMessage {
+  font-size: 1.5em;
+  background: #795c5f5c;
+  padding: 1em;
+}
+@media (max-width: 900px) {
+  .infoRoom {
+    text-align: left;
+    padding: 2em 1em;
+  }
+  .room-item img {
+    max-width: 39vw;
+  }
+  .description {
+    font-size: 17px;
+  }
+  .roomName {
+    font-family: "Playfair Display", serif;
+    font-size: 23px;
+  }
+  .room-item {
+    padding: 0em 2em;
+  }
+  .rooms-container {
+    gap: 0em;
+  }
+}
+@media (max-width: 500px) {
+  .room-item {
+    flex-direction: column;
+  }
+  .room-item img {
+    max-width: 81vw;
+  }
+}

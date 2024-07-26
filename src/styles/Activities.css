@@ -1,0 +1,24 @@
+.crousel {
+  display: flex;
+  gap: 2em;
+  padding: 2em;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.crousel-img {
+  width: 30em;
+  height: 20em;
+}
+.heading {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding: 1em;
+}
+.crousel-img2 {
+  width: 29em;
+  height: 29em;
+}

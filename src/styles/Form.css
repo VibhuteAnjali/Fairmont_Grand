@@ -1,0 +1,147 @@
+.subheading {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #795c5f;
+}
+.form-flex {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+input {
+  padding: 1em;
+  width: 27em;
+  border-radius: 0.5em;
+  /* border: 1px; */
+  border: 1px solid;
+}
+.date-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.date-flex label {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+form {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.checkbox-div label {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 2em;
+}
+.checkbox {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.checkbox-div {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 1em;
+  width: 29em;
+}
+.checkbox-div input:checked ~ .checkbox {
+  background-color: #471644;
+}
+input[type="checkbox"]:checked {
+  transform: scale(1);
+  background-color: #471644;
+}
+/* Style for the checkbox */
+.checkbox {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+/* Hide the default checkbox */
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+/* Create a custom checkbox */
+.checkbox label {
+  width: 20px;
+  height: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Style the checkbox when checked */
+.checkbox input[type="checkbox"]:checked + label {
+  background-color: #4caf50; /* Change to desired color */
+}
+select {
+  width: 27em;
+  border-radius: 1em;
+  height: 4em;
+  padding: 1em;
+}
+#form {
+  margin-top: 3em;
+  /* background-image: url("https://i.pinimg.com/564x/25/ac/07/25ac07e9d501e54c974605b2b0ebbd10.jpg"); */
+  background-repeat: no-repeat;
+}
+.checkButton {
+  padding: 11px 10px;
+  width: 7em;
+  margin: 1em;
+  font-size: 19px;
+  border: none;
+  background-color: #795c5f;
+  color: #fff;
+}
+.error {
+  text-align: center;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  background: #ff5a5a;
+  /* display: inline; */
+  width: fit-content;
+  margin: auto;
+  color: white;
+  border-radius: 1em;
+  margin-top: 1em;
+}
+.error p {
+  margin: 0;
+}
+@media (max-width: 600px) {
+  input {
+    width: 23em !important;
+  }
+  .heading {
+    font-size: 2em !important;
+  }
+  .flex-content p {
+    font-size: 17px !important;
+  }
+  .flex-content span {
+    font-size: 21px !important;
+  }
+  .existingBooking {
+    padding: 1em !important;
+  }
+  .margin-1 {
+    gap: 0em !important;
+    width: 100% !important;
+  }
+}

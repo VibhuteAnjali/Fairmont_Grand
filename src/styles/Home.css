@@ -1,0 +1,37 @@
+.home {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/c6/8f/07/exterior-of-fairmont.jpg?w=2000&h=900");
+  width: 98.5vw;
+  height: 100vh;
+  margin: 0em 0em;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.tagline {
+  text-align: center;
+  /* margin-top: 13vh; */
+  padding-top: 6em;
+}
+.tagline h1 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 61px;
+}
+.tagline p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1em;
+}
+.ctc {
+  padding: 1em;
+  background-color: #000000e0;
+  font-size: 17px;
+  border: none;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+@media (max-width: 600px) {
+  .tagline p {
+    visibility: hidden;
+  }
+}
